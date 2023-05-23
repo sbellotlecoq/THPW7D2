@@ -1,8 +1,7 @@
 {
   "name": "networkapp",
   "version": "0.1.0",
-  "homepage": "https://sbellotlecoq.github.io/",
-
+  "homepage": "https://sbellotlecoq.github.io/THPW7D2",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -25,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-+   "deploy": "sbellotlecoq -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
